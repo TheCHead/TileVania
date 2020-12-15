@@ -58,7 +58,7 @@ public class GameSession : MonoBehaviour
 
     public void AddCoins()
     {
-        coins++;
+        coins += 1;
         coinsText.text = coins.ToString();
     }
 }
